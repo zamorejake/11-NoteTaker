@@ -1,6 +1,6 @@
 const express = require("express");
 const db = require("./routes/db.js");
-const PORT = process.env.port || 3001;
+const PORT = process.env.PORT || 3001;
 const path = require("path");
 const app = express();
 app.use(express.json());
